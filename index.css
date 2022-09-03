@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+.title {
+    font-family: "Roboto", "Arial";
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.sheet {
+    width: 750px;
+    height: 550px;
+}
