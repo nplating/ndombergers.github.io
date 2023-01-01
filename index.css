@@ -3,6 +3,40 @@
     src: url(Roboto/Roboto-Regular.ttf);
 }
 
+body {
+    font-family: "Roboto";
+    color: black;
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #000097;
+    color: white;
+  }
+
 .title {
     font-family: "Roboto", "Arial";
     font-weight: bold;
@@ -12,7 +46,49 @@
     padding-bottom: 10px;
 }
 
-.sheet {
-    width: 750px;
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a.title:hover {
+    text-decoration-thickness: 5%;
+}
+  
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+a.title:active {
+    text-decoration-thickness: 5%;
+}
+
+.predictions {
+    width: 700px;
     height: 550px;
+}
+
+.tracking-table {
+    width: 750px;
+    height: 300px;
+}
+
+.available {
+    width: 520px;
+    height: 500px;
+}
+
+.sheet {
+    margin: 10px;
 }
